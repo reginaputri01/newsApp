@@ -1,0 +1,40 @@
+.container {
+    padding: 0 2rem;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 2rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f7f7f7;
+}
+
+.card {
+    width: 25rem;
+    height: 33rem;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: white;
+    box-shadow: 0px 5px 0.75rem rgba(74, 74, 74, 0.03);
+
+}
+
+.card a {
+    color: blue;
+    font-size: 1.2rem;
+    font-variant: small-caps;
+}
+
+.card a:hover {
+    text-decoration-line: underline;
+}
